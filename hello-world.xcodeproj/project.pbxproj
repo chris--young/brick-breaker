@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D03702C1E5106FA00E9555D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D03702B1E5106FA00E9555D /* QuartzCore.framework */; };
+		5D03702E1E51070300E9555D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D03702D1E51070300E9555D /* OpenGLES.framework */; };
+		5D0370301E51070800E9555D /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D03702F1E51070800E9555D /* GLKit.framework */; };
+		5D0370761E511E1D00E9555D /* GLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0370751E511E1D00E9555D /* GLView.swift */; };
+		5D0370781E51282700E9555D /* vertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 5D0370771E51282700E9555D /* vertex.glsl */; };
+		5D03707A1E51283900E9555D /* fragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 5D0370791E51283900E9555D /* fragment.glsl */; };
+		5D2441C51E900D440056B1E8 /* Body.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2441C41E900D440056B1E8 /* Body.swift */; };
+		5D2441C81E9021C70056B1E8 /* sphere.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 5D2441C61E9021C70056B1E8 /* sphere.mtl */; };
+		5D2441C91E9021C70056B1E8 /* sphere.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5D2441C71E9021C70056B1E8 /* sphere.obj */; };
+		5D2441CB1E9053060056B1E8 /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2441CA1E9053060056B1E8 /* Light.swift */; };
+		5D6E23881E62A6CE00032F56 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E23871E62A6CE00032F56 /* Model.swift */; };
+		5D7966E71E63D89F00BABBD9 /* cube.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5D7966E61E63D89F00BABBD9 /* cube.obj */; };
 		5DCABD321E50E74B008880A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCABD311E50E74B008880A8 /* AppDelegate.swift */; };
 		5DCABD341E50E74B008880A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCABD331E50E74B008880A8 /* ViewController.swift */; };
 		5DCABD371E50E74B008880A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DCABD351E50E74B008880A8 /* Main.storyboard */; };
 		5DCABD391E50E74B008880A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DCABD381E50E74B008880A8 /* Assets.xcassets */; };
 		5DCABD3C1E50E74B008880A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DCABD3A1E50E74B008880A8 /* LaunchScreen.storyboard */; };
-		5DCABD471E50E74B008880A8 /* hello_worldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCABD461E50E74B008880A8 /* hello_worldTests.swift */; };
-		5DCABD521E50E74B008880A8 /* hello_worldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCABD511E50E74B008880A8 /* hello_worldUITests.swift */; };
+		5DF941981E6402FB00522276 /* cube.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 5DF941971E6402FB00522276 /* cube.mtl */; };
+		5DF9419B1E640E8200522276 /* diamond.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 5DF941991E640E8200522276 /* diamond.mtl */; };
+		5DF9419C1E640E8200522276 /* diamond.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5DF9419A1E640E8200522276 /* diamond.obj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D03702B1E5106FA00E9555D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5D03702D1E51070300E9555D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		5D03702F1E51070800E9555D /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		5D0370751E511E1D00E9555D /* GLView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLView.swift; sourceTree = "<group>"; };
+		5D0370771E51282700E9555D /* vertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vertex.glsl; sourceTree = "<group>"; };
+		5D0370791E51283900E9555D /* fragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fragment.glsl; sourceTree = "<group>"; };
+		5D2441C41E900D440056B1E8 /* Body.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Body.swift; sourceTree = "<group>"; };
+		5D2441C61E9021C70056B1E8 /* sphere.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sphere.mtl; sourceTree = "<group>"; };
+		5D2441C71E9021C70056B1E8 /* sphere.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sphere.obj; sourceTree = "<group>"; };
+		5D2441CA1E9053060056B1E8 /* Light.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		5D6E23871E62A6CE00032F56 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5D7966E61E63D89F00BABBD9 /* cube.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cube.obj; sourceTree = "<group>"; };
 		5DCABD2E1E50E74B008880A8 /* hello-world.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-world.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DCABD311E50E74B008880A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DCABD331E50E74B008880A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,11 +67,10 @@
 		5DCABD3B1E50E74B008880A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DCABD3D1E50E74B008880A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DCABD421E50E74B008880A8 /* hello-worldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hello-worldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DCABD461E50E74B008880A8 /* hello_worldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello_worldTests.swift; sourceTree = "<group>"; };
-		5DCABD481E50E74B008880A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DCABD4D1E50E74B008880A8 /* hello-worldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hello-worldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DCABD511E50E74B008880A8 /* hello_worldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello_worldUITests.swift; sourceTree = "<group>"; };
-		5DCABD531E50E74B008880A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DF941971E6402FB00522276 /* cube.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cube.mtl; sourceTree = "<group>"; };
+		5DF941991E640E8200522276 /* diamond.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = diamond.mtl; sourceTree = "<group>"; };
+		5DF9419A1E640E8200522276 /* diamond.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = diamond.obj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D0370301E51070800E9555D /* GLKit.framework in Frameworks */,
+				5D03702E1E51070300E9555D /* OpenGLES.framework in Frameworks */,
+				5D03702C1E5106FA00E9555D /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +101,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D03702A1E5106FA00E9555D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D03702F1E51070800E9555D /* GLKit.framework */,
+				5D03702D1E51070300E9555D /* OpenGLES.framework */,
+				5D03702B1E5106FA00E9555D /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5DCABD251E50E74B008880A8 = {
 			isa = PBXGroup;
 			children = (
 				5DCABD301E50E74B008880A8 /* hello-world */,
-				5DCABD451E50E74B008880A8 /* hello-worldTests */,
-				5DCABD501E50E74B008880A8 /* hello-worldUITests */,
 				5DCABD2F1E50E74B008880A8 /* Products */,
+				5D03702A1E5106FA00E9555D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,30 +135,24 @@
 			children = (
 				5DCABD311E50E74B008880A8 /* AppDelegate.swift */,
 				5DCABD331E50E74B008880A8 /* ViewController.swift */,
+				5D2441C61E9021C70056B1E8 /* sphere.mtl */,
+				5D2441C71E9021C70056B1E8 /* sphere.obj */,
+				5D2441C41E900D440056B1E8 /* Body.swift */,
+				5D6E23871E62A6CE00032F56 /* Model.swift */,
+				5D2441CA1E9053060056B1E8 /* Light.swift */,
+				5DF941991E640E8200522276 /* diamond.mtl */,
+				5DF9419A1E640E8200522276 /* diamond.obj */,
+				5DF941971E6402FB00522276 /* cube.mtl */,
+				5D7966E61E63D89F00BABBD9 /* cube.obj */,
 				5DCABD351E50E74B008880A8 /* Main.storyboard */,
+				5D0370751E511E1D00E9555D /* GLView.swift */,
+				5D0370771E51282700E9555D /* vertex.glsl */,
+				5D0370791E51283900E9555D /* fragment.glsl */,
 				5DCABD381E50E74B008880A8 /* Assets.xcassets */,
 				5DCABD3A1E50E74B008880A8 /* LaunchScreen.storyboard */,
 				5DCABD3D1E50E74B008880A8 /* Info.plist */,
 			);
 			path = "hello-world";
-			sourceTree = "<group>";
-		};
-		5DCABD451E50E74B008880A8 /* hello-worldTests */ = {
-			isa = PBXGroup;
-			children = (
-				5DCABD461E50E74B008880A8 /* hello_worldTests.swift */,
-				5DCABD481E50E74B008880A8 /* Info.plist */,
-			);
-			path = "hello-worldTests";
-			sourceTree = "<group>";
-		};
-		5DCABD501E50E74B008880A8 /* hello-worldUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5DCABD511E50E74B008880A8 /* hello_worldUITests.swift */,
-				5DCABD531E50E74B008880A8 /* Info.plist */,
-			);
-			path = "hello-worldUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +223,7 @@
 				TargetAttributes = {
 					5DCABD2D1E50E74B008880A8 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8P7493A9Z2;
 						ProvisioningStyle = Automatic;
 					};
 					5DCABD411E50E74B008880A8 = {
@@ -232,9 +263,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D7966E71E63D89F00BABBD9 /* cube.obj in Resources */,
+				5D03707A1E51283900E9555D /* fragment.glsl in Resources */,
+				5DF9419B1E640E8200522276 /* diamond.mtl in Resources */,
 				5DCABD3C1E50E74B008880A8 /* LaunchScreen.storyboard in Resources */,
+				5D2441C81E9021C70056B1E8 /* sphere.mtl in Resources */,
+				5D0370781E51282700E9555D /* vertex.glsl in Resources */,
 				5DCABD391E50E74B008880A8 /* Assets.xcassets in Resources */,
+				5DF9419C1E640E8200522276 /* diamond.obj in Resources */,
+				5D2441C91E9021C70056B1E8 /* sphere.obj in Resources */,
 				5DCABD371E50E74B008880A8 /* Main.storyboard in Resources */,
+				5DF941981E6402FB00522276 /* cube.mtl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +298,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D2441CB1E9053060056B1E8 /* Light.swift in Sources */,
+				5D2441C51E900D440056B1E8 /* Body.swift in Sources */,
+				5D6E23881E62A6CE00032F56 /* Model.swift in Sources */,
+				5D0370761E511E1D00E9555D /* GLView.swift in Sources */,
 				5DCABD341E50E74B008880A8 /* ViewController.swift in Sources */,
 				5DCABD321E50E74B008880A8 /* AppDelegate.swift in Sources */,
 			);
@@ -268,7 +311,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DCABD471E50E74B008880A8 /* hello_worldTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +318,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DCABD521E50E74B008880A8 /* hello_worldUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +453,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8P7493A9Z2;
 				INFOPLIST_FILE = "hello-world/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "www.chrisyou.ng.hello-world";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +467,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8P7493A9Z2;
 				INFOPLIST_FILE = "hello-world/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "www.chrisyou.ng.hello-world";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +550,7 @@
 				5DCABD581E50E74B008880A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DCABD591E50E74B008880A8 /* Build configuration list for PBXNativeTarget "hello-worldTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +559,7 @@
 				5DCABD5B1E50E74B008880A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DCABD5C1E50E74B008880A8 /* Build configuration list for PBXNativeTarget "hello-worldUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +568,7 @@
 				5DCABD5E1E50E74B008880A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
